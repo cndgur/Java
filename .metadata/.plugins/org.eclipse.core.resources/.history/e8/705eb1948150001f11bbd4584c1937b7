@@ -1,0 +1,8 @@
+package kh.model.vo.Food;
+
+public class fileSave {
+
+	public void fileSave(String fileName) {
+		
+	}
+}

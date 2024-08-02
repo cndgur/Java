@@ -1,0 +1,38 @@
+package test240731;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+//C(controller) : 사용자가 요청한 내용을 처리한 후 그 결과를 돌려주는 역할
+public class FarmController {
+	private HashMap <Farm, Integer> hMap;
+	private ArrayList<Farm> list;
+	
+	public boolean addNewKind(Farm f, int amount) {
+		hMap.put(f, amount);
+		return false;
+	}
+	
+	public boolean removeKind(Farm f) {
+		return false;
+	}
+	
+	public boolean changeAmount(Farm f, int amount) {
+		return false;
+	}
+	
+	public HashMap<Farm, Integer> printFarm(){
+		return null;
+	}
+	
+	public boolean buyFarm(Farm f) {
+		return false;
+	}
+	
+	public boolean removeFarm(Farm f) {
+		return false;
+	}
+	
+	public ArrayList<Farm> printBuyFarm(){
+		return null;
+	}
+}

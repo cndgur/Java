@@ -1,0 +1,16 @@
+package com.kh.test;
+
+import java.util.ArrayList;
+public class MyCollection{
+public void Test() {
+
+	ArrayList<Fruit> list = new ArrayList<Fruit>();
+	list.a
+
+}
+
+public void Test() {
+	// TODO Auto-generated method stub
+	
+}
+}

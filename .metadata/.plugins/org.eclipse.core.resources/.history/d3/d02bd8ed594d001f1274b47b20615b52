@@ -1,0 +1,7 @@
+package o.collection.map;
+
+public enum Snack {
+
+	private Stirng flavor;
+	private int calory;
+}
